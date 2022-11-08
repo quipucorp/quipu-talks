@@ -231,7 +231,7 @@ Al ejecutarse en una cadena de bloques descentralizada, permiten que varias part
 
 ---
 ![bg left:50% h:730](./imgs/token.gif)
-### Blockchain / Samatr Contract / Cryptoactivos
+### Blockchain / Smart Contract / Cryptoactivos
 Tipos especiales de Smart Contracts para representar:
 - Tokens
 - Non Fungible Tokens (NFT)
