@@ -262,10 +262,8 @@ pedirá que aporte su casa como garantía.
 ---
 ![bg right:50%](./imgs/quipu1.svg)
 ## Quipu / Lending Pool / Protocolo de Smart Contracs 
-Créditos que proviene de cualquier persona del mundo, en fortma de criptomonedas,
-creando un nuevo fondo de liquidez en la que usuarios del que se puede extraer.
-
-
+Créditos que proviene de cualquier persona del mundo, en forma de criptomonedas, creando un nuevo fondo de liquidez en la que usuarios pueden extraer
+de forma rápida y a tipos de interés asequibles.
 
 <!---
 1. Quipu planea que los
@@ -310,7 +308,7 @@ code {
 # ¡Muchas Gracias!
 
 ```
-                       ________  ___  ___  ___  ________  ___  ___     
+                        ________  ___  ___  ___  ________  ___  ___     
                        |\   __  \|\  \|\  \|\  \|\   __  \|\  \|\  \    
                        \ \  \|\  \ \  \\\  \ \  \ \  \|\  \ \  \\\  \   
                         \ \  \\\  \ \  \\\  \ \  \ \   ____\ \  \\\  \  
