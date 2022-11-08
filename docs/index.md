@@ -8,7 +8,7 @@ _class:
   #- invert
 paginate: true
 backgroundColor: #fff
-# backgroundImage: url('https://marp.app/assets/hero-background.svg')
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
 ---
 
 <!--
@@ -44,13 +44,13 @@ content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
 }
 </style>
 
+![bg brightness:1.2 opacity:0.5](./imgs/bc-concensus.gif)
 # Blockchain, Web3 y DeFi
-
+<br>
 <!--
 ![img](./imgs/bc-information.mp4)
-![img](./imgs/bc-concensus.gif)
 ![img](./imgs/bc-validators.mp4)
-![img](./imgs/Blockchain.gif)
+![img](./imgs/blockchain.gif)
 -->
 
 # QuipuBank
@@ -64,7 +64,7 @@ content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
 
 ---
 # Blockchain
-- Conceptos Fundamentales y Técnicos
+- Conceptos fundamentales y técnicos
 - Historia: de Bitcoin a Ethereum.
 - Solidty/EVM Smart Contracts.
 
@@ -89,8 +89,9 @@ metadata relativa a otro bloque anterior en la cadena,
 para hacer un seguimiento seguro a través de cálculos criptográficos.
 
 ---
-### Blockchain / Conceptos Técnicos / Cadena de bloques
+### Blockchain / Conceptos técnicos / Cadena de bloques
 <style scoped>
+section{ background-image:none !important} 
 img {
   margin:auto;
   text-align: center;
@@ -100,7 +101,7 @@ p {
   text-align: center;
 }
 </style>
-![w:950 info](./imgs/blockchain.gif)
+![1250](./imgs/blockchain.gif)
 
 ---
 ### Blockchain / Conceptos técnicos / Cadena de bloques decentralizada
@@ -122,7 +123,7 @@ p {
 }
 </style>
 ### Blockchain / Conceptos técnicos / Blockchain
-![w:900 info](./imgs/bc-information.gif)
+![bg w:1350 info](./imgs/bc-information.gif)
 
 
 <!--
@@ -163,26 +164,27 @@ Al ejecutarse en una cadena de bloques descentralizada, permiten que varias part
 Ejemplo de un Smart Contract en Solidy, lenguaje de la  Máquina Virtual Ethereum (EVM), que actualiza una cadena de texto.
 
 ---
-![bg left:50% w:1350](./imgs/web3.png)
+<style scoped>
+section{ background-image:none !important} 
+</style>
+![bg left:60% w:1350](./imgs/web3.png)
 # Web3
  - Blockchain + Web2
    - _on/off-chain data_
  - Interactuar con la Blockchain
    - Wallets
-   - Emitir y escuchar eventos
+   - Eventos
 
 ---
-![bg opacity:0.3 w:1350](./imgs/web3b.png)
+![bg opacity:0.2 w:1350](./imgs/web3b.png)
 ## Web3 / Blockchain + Web2 = Web3
 - Término creado por el cofundador de Ethereum, Gavin Wood, en su artículo _Insights Into a Modern world_.
-- Leer y generar información en la Blockchain desde el navegador, a través de interfaces HTML o aplicaciones.
-  **On-chain data:** Información que recide o es producida dentro de la Blockchain.
-- Smart Contracts que consultan información del mundo real. Por Ej. condiciones climáticas, precios de bienes, APIs, etc.
-  **Off-chain data:** Información fuera de la Blockchain.
+- Leer y generar _on-chain data_ (información que recide o es producida dentro de la Blockchain) desde el navegador y aplicaciones.
+- Smart Contracts que se consultan flujos de _off-chain data_ (datos del mundo real). Por Ej. condiciones climáticas, precios de bienes, APIs, etc.
 
 
 ---
-![bg right:40% w:1350](./imgs/wallet.jpg)
+![bg opacity:0.9 right:40% w:1350](./imgs/wallet.jpg)
 ## Web3 / Interactuar / Wallets de criptomonedas
 
 - Son piezas clave para interactuar con la Blockchain.
@@ -223,7 +225,7 @@ emitidos por los mismos.
 
 ---
 
-![bg left:50%](./imgs/defi.jpg)
+![bg opacity:0.9 left:50%](./imgs/defi.jpg)
 # DeFi: Finanzas Decentralizadas
 
 Principales arquetipos:
@@ -236,20 +238,26 @@ Principales arquetipos:
 -->
 
 ---
-![bg right:60% w:1050](./imgs/amm.png)
+![bg opacity:0.8 right:60% w:1050](./imgs/amm.png)
 **DeFi / Automated Market Makers (AMM)**
 Los AMM permiten a intercambiar unidades de diferentes tipos de criptoactivos, sin necesidad de encontrar una contraparte.
 
 ---
-![bg left:50% w:1200](./imgs/lp.png)
+![bg opacity:0.8 left:60% h:750](./imgs/lp.png)
 **DeFi / Lending Pools**
 Los pools de préstamos son apps descentralizadas que permiten a usuarios que no son de confianza mutua prestar y tomar prestados criptoactivos.
 
 
 
 ---
-![bg w:1350](./imgs/quipulp.png)
-### Quipu / Lending Pool
+<style scoped>
+h3, p{
+margin-top:-50px;
+}
+
+</style>
+![bg saturate:0.7 blur:.2 w:1350](./imgs/quipulp.png)
+### Quipu /<br>Lending Pool 
 <!--
 Acceder a lineas de credito sin establecer un elemento de valor como garantía es que el puede confiscar
 al prestatario si éste no devuelve el préstamo según las condiciones acordadas.
