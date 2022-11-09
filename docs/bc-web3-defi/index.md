@@ -453,7 +453,7 @@ code {
 ---
 # Referencias
 
-http://Blockchain.mit.edu/how-Blockchain-works
+http://blockchain.mit.edu/how-blockchain-works
 https://www.cbsnews.com/news/web3-cryptocurrency-nft-tim-oreilly/
 https://es.wikipedia.org/wiki/Cadena_de_bloques
 https://chain.link/education/smart-contracts
