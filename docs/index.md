@@ -19,6 +19,8 @@ backgroundImage: url('imgs/background.jpg')
 
 <style>
 @import url(https://fonts.googleapis.com/css?family=Google+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 
 :root {
     font-family: "Google Sans";
@@ -37,6 +39,9 @@ backgroundImage: url('imgs/background.jpg')
         display: block;
         margin: 0 auto;
     }
+    p{
+      font-family: lato;
+    }
 }
 
 section::after {
@@ -51,5 +56,6 @@ section::after {
 # QuipuBank
 ## Talks and presentations
 - [Blockchin, Web3 y DeFi](./bc-web3-defi/)
+- [DeFi](./defi/)
 
 ---
